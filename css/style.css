@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2? family= Heebo:wght@600 & display=swap');
+
+@font-face {
+    font-family:"heebo-ligth", sans-serif;
+    src: url("../fonts/Heebo-Light.ttf");
+}
+
+#barra-principal a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight:lighter;
+    margin-right: 120px;
+}
+
+#barra-principal img{
+    width: 100px;
+    margin-left: -20px;
+}
+
+body{
+    background-color: white;
+    font-family: "heebo-ligth", sans-serif;
+}
+
+
+
+.portada{
+    width: 100%;
+}
+
+.video{
+    width: 100%;
+    height: 700px;
+}
+
+main {
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.maquinas{
+    margin: 10px;
+    padding: 20px;
+    text-align:center;
+    width: 100px;
+    text-decoration: none;
+    background-color: white;
+}
+
+.maquinas img{
+    max-width: 100%;
+}
+
+.maquinas:hover{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.remeras{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+} 
+
+.remeras img{
+    max-width: 100%;
+}
+
+
+.remeras:hover{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.cardio{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    text-align:center;
+    width: 300px;
+    text-decoration: none;
+}
+
+.cardio img{
+    max-width: 100%;
+}
+
+.cardio:hover{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    min-width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    
+}
+
+.buttons a:hover {
+    transform: scale(1.2);
+}
+
+section{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:440px) and (max-width:1500px) {
+    body{background-color: white;
+        font-family: "heebo-ligth", sans-serif;}
+}
